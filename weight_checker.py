@@ -19,3 +19,10 @@ def can_form_weight(W, weights):
         return True
 
     return False
+W = 15
+list = [4, 3, 5, 6, 4]
+print(can_form_weight(W, lists))
+W = 9
+list = [4, 1, 3, 7]
+print(can_form_weight(W, lists))
+
